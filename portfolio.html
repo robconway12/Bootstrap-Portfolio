@@ -13,7 +13,7 @@
     <header class="bg-light mb-3 shadow">
             
             <div class="container clearfix">
-            <h1 class="p-3 mb-0 bg-info text-white rounded w-25 text-wrap float-left align-bottom">Rob Conway</h1>
+            <h1 class="p-3 mb-0 bg-info text-white rounded text-wrap float-left align-bottom">Rob Conway</h1>
                 <nav class="nav nav-pills flex-column flex-sm-row float-right position-relative mt-4">
                     <a class="flex-sm-fill text-sm-center nav-link text-info" href="index.html">About</a>
                     <a class="flex-sm-fill text-sm-center nav-link bg-info active" href="portfolio.html">Portfolio</a>
@@ -30,33 +30,51 @@
                 
                 <hr>
 
-            <div class="flex-container">
-                <div class="portfolioimg">
-                    <img src="assets/images/hangman.jpg">
-                    <p class="imglabel">Hangman</p>
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col">
+                            <div class="row">
+                                <img id="hangman" class="col-sm-12" src="assets/images/hangman.jpg">
+                            </div>
+                            <div class="row">
+                                <label for="hangman" class="bg-info text-white p-3 text-center col-12">Hangman</label>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/images/videogame.jpg">
+                            <label class="bg-info text-white p-3 text-center col">RPG Game</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/videogame.jpg">
-                    <p  class="imglabel">RPG Game</p>
+
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-sm">
+                            <img src="assets/images/trivia.png">
+                            <label class="bg-info text-white p-3 text-center col">Trivia Game</label>
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/images/info.jpg">
+                            <label class="bg-info text-white p-3 text-center col">Rutgers Info Widget</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/trivia.png">
-                    <p  class="imglabel">Trivia Game</p>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/info.jpg">
-                    <p  class="imglabel">Rutgers Info Widget</p>
-                </div>
-                <div class="portfolioimg">
-                    <img src="assets/images/rps.png">
-                    <p  class="imglabel">Rock Paper Scissors</p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="assets/images/rps.png">
+                            <label class="bg-info text-white p-3 text-center col-6">Rock Paper Scissors</label>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
         </div>
-    </section>
-<footer id="main-footer">
-        <p><small>&copy;2019 Rob Conway - All rights reserved</small></p>
 
+    <footer class="text-center bg-secondary text-white border-top border-info">
+        <p><small>&copy;2019 Rob Conway - All rights reserved</small></p>
     </footer>
+    
 </body>
 </html>
